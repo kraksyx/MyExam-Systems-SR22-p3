@@ -2,7 +2,7 @@ const questions = [
   {
     "question": "105. What is the yellow arc (minimum caution range) for the fuel quantity?",
     "options": ["0 – 14 U.S. Gallons", "0 – 9 U.S. Gallons", "14 – 46 U.S. Gallons", "9 – 14 U.S. Gallons"],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "106. What is the green arc (normal range) for the fuel quantity?",
@@ -32,17 +32,17 @@ const questions = [
   {
     "question": "111. What triggers an amber caution message for the fuel totalizer or total sensed quantity?",
     "options": ["Less than 9 gallons", "Less than 5 gallons", "Less than or equal to 14 gallons", "Less than 1 gallon"],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "112. What triggers a white advisory message for fuel imbalance?",
     "options": ["Imbalance between tanks is greater than 5 gallons", "Imbalance between tanks is greater than 8 gallons", "Imbalance between tanks is greater than 10 gallons", "Imbalance between tanks is greater than 12 gallons"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "113. What triggers an amber caution message for fuel imbalance?",
     "options": ["Imbalance between tanks is greater than 10 gallons", "Imbalance between tanks is greater than 12 gallons", "Imbalance between tanks is greater than 8 gallons", "Imbalance between tanks is greater than 5 gallons"],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "114. What triggers a red warning message for fuel imbalance?",
@@ -52,7 +52,7 @@ const questions = [
   {
     "question": "115. What is the positive flight load factor limit for Flaps UP (0%) at 3600 lb?",
     "options": ["+1.9g", "+2.5g", "+3.8g", "0g"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "116. What is the negative flight load factor limit for Flaps UP (0%) at 3600 lb?",
@@ -62,22 +62,22 @@ const questions = [
   {
     "question": "117. What is the positive flight load factor limit for Flaps 50% at 3600 lb?",
     "options": ["0g", "+2.5g", "+3.8g", "+1.9g"],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "118. What is the negative flight load factor limit for Flaps 50% at 3600 lb?",
     "options": ["-1.9g", "-3.8g", "-2.5g", "0g"],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "119. What is the positive flight load factor limit for Flaps 100% (Down) at 3600 lb?",
     "options": ["+1.9g", "+2.5g", "0g", "+3.8g"],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "120. What is the negative flight load factor limit for Flaps 100% (Down) at 3600 lb?",
     "options": ["0g", "-1.9g", "-3.8g", "-2.5g"],
-    "correct": 2
+    "correct": 0
   },
   {
     "question": "121. Which geographic area is NOT authorized for navigation using the Perspective+ Integrated Avionics System?",
@@ -142,12 +142,12 @@ const questions = [
   {
     "question": "133. What is the rating for Alternator 2?",
     "options": ["70 amps, 28 volts", "100 amps, 28 volts", "70 amps, 28.75 volts", "100 amps, 28.75 volts"],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "134. At what IAS would you expect to hear the stall horn when practicing power-off stalls with full flaps?",
     "options": ["64kts", "69kts", "74kts", "90kts"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "135. What is the best way to pull the handle when activating the CAPS?",
@@ -157,7 +157,7 @@ const questions = [
   {
     "question": "136. What happens to SR22 performance with a forward center of gravity (Fwd CG)?",
     "options": ["Stability decreases, sensitivity increases, stall speed & fuel use decrease", "Stability decreases, sensitivity increases, stall speed & fuel use increase", "Stability increases, sensitivity decreases, stall speed & fuel use decrease", "Stability increases, sensitivity decreases, stall speed & fuel use increase"],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "137. What happens to SR22 performance with an aft center of gravity (Aft CG)?",
@@ -192,7 +192,7 @@ const questions = [
   {
     "question": "143. What is the range of the yellow arc on the airspeed indicator?",
     "options": ["205kts", "176kts–205kts", "74kts–176kts", "64kts–110kts"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "144. What is the speed of the red arc on the airspeed indicator?",
@@ -207,7 +207,7 @@ const questions = [
   {
     "question": "146. Is it advisable to unlatch the cabin doors with smoke or fumes in the cabin?",
     "options": ["Yes, it is done to ventilate the cabin from fumes/smoke", "Only if the aircraft is on the ground", "Only if the smoke is minimal", "No, it will make the situation worse"],
-    "correct": 3
+    "correct": 0
   },
   {
     "question": "147. How many fuel drain points are there in the aircraft?",
@@ -222,12 +222,12 @@ const questions = [
   {
     "question": "149. What is the landing speed with flaps up according to the POH?",
     "options": ["75kts–80kts", "80kts–85kts", "90kts–95kts", "85kts–90kts"],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "150. What is the landing speed with flaps at 50% according to the POH?",
     "options": ["80kts–85kts", "90kts–95kts", "85kts–90kts", "75kts–80kts"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "151. What is the landing speed with flaps at 100% according to the POH?",
@@ -257,6 +257,7 @@ const questions = [
   {
     "question": "156. Before you do your run-up, what oil temperature should you ensure is reached?",
     "options": ["125°F", "75°F", "50°F", "100°F"],
-    "correct": 3
+    "correct": 1
   },
 ];
+
